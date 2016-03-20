@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular App</title>
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/node_modules/@angular/router/angular1/angular_1_router.js"></script>
+    <script src="/app.js"></script>
+  </head>
+  <body ng-app="docsTabsExample">
+    <my-tabs>
+      <my-pane title="Таб 1">
+        <h2>Таб 1</h2>
+        <p>Lorem ipsum dolor sit amet</p>
+      </my-pane>
+      <my-pane title="Таб 2">
+        <h2>Таб 2</h2>
+        <em>Mauris elementum elementum enim at suscipit.</em>
+        <p><a href ng-click="i = i + 1">счетчик: {{i || 0}}</a></p>
+      </my-pane>
+  </my-tabs>
+  </body>
+</html>

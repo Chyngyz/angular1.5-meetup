@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular App</title>
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/node_modules/@angular/router/angular1/angular_1_router.js"></script>
+    <script src="/app.js"></script>
+  </head>
+  <body>
+  <body  ng-cloak>
+    <h1>Мои песни</h1>
+    <hr/>
+    <card-component title="Linkin Park">
+      In the end
+    </card-component>
+    <card-component></card-component>
+    <hr/>
+    <card title="Imagine Dragons">
+      Curse
+    </card>
+    <card></card>
+    <hr/>
+    <multislot-card>
+      <card-title>OneRepublic</card-title>
+      <card-song>Counting Stars</card-song>
+    </multislot-card>
+    <multislot-card></multislot-card>
+  </div>
+
+
+  </body>
+</html>

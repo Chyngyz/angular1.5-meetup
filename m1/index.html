@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular App</title>
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/node_modules/@angular/router/angular1/angular_1_router.js"></script>
+    <script src="/app.js"></script>
+  </head>
+  <body>
+  <body ng-app="app">
+    <h1 class="title">Пример компонента</h1>
+    <div ng-controller="CountCtrl as vm">
+      <counter count="vm.count"></counter>
+      <br>
+      <hr>
+      <br>
+      <counter-directive count="vm.count"></counter-directive>
+  </div>
+
+
+  </body>
+</html>
